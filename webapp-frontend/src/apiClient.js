@@ -1,4 +1,4 @@
-const API_URL = process.env.FASTAPI_BACKEND_URL || "http://localhost:5000";
+// const API_URL = process.env.FASTAPI_BACKEND_URL || "http://localhost:5000";
 
 export const fetchQuestions = () => {
     return fetch("http://localhost:5000/questions/", {

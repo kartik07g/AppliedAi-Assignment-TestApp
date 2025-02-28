@@ -7,7 +7,7 @@ import os
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Retry database connection if MySQL isn't ready
-MAX_RETRIES = 5
+MAX_RETRIES = 10
 for i in range(MAX_RETRIES):
     try:
         engine = create_engine(DATABASE_URL)
@@ -27,7 +27,7 @@ class Question(Base):
     __tablename__ = "questions"
 
     id = Column(Integer, primary_key=True, index=True)
-    question = Column(String(255), index=True)  # Add length (max 255)
+    question = Column(String(500), index=True)  # Add length
     option_a = Column(String(100))  # Add length
     option_b = Column(String(100))
     option_c = Column(String(100))

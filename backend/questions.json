@@ -1,802 +1,531 @@
 [
     {
-        "question": "Which programming language is known as the 'mother of all languages'?",
-        "option_a": "C",
-        "option_b": "Assembly",
-        "option_c": "COBOL",
-        "option_d": "FORTRAN",
-        "correct_option": "d"
-    },
-    {
-        "question": "What does HTML stand for?",
-        "option_a": "Hyper Trainer Marking Language",
-        "option_b": "Hyper Text Markup Language",
-        "option_c": "Hyper Text Managing Links",
-        "option_d": "Hyper Transfer Markup Language",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which of the following is a backend language?",
-        "option_a": "HTML",
-        "option_b": "CSS",
-        "option_c": "Python",
-        "option_d": "JavaScript",
+        "question": "Which keyword is used to declare a constant variable in JavaScript?",
+        "option_a": "let",
+        "option_b": "var",
+        "option_c": "const",
+        "option_d": "static",
         "correct_option": "c"
     },
     {
-        "question": "Which data structure uses LIFO (Last In, First Out)?",
-        "option_a": "Queue",
-        "option_b": "Stack",
-        "option_c": "Array",
-        "option_d": "Linked List",
+        "question": "In Python, which data structure is immutable?",
+        "option_a": "List",
+        "option_b": "Dictionary",
+        "option_c": "Tuple",
+        "option_d": "Set",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the purpose of the 'git clone' command?",
+        "option_a": "To commit changes",
+        "option_b": "To create a new branch",
+        "option_c": "To copy a repository",
+        "option_d": "To merge branches",
+        "correct_option": "c"
+    },
+    {
+        "question": "Which of the following is a NoSQL database?",
+        "option_a": "MySQL",
+        "option_b": "PostgreSQL",
+        "option_c": "MongoDB",
+        "option_d": "SQLite",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the primary function of the 'HTTP GET' method?",
+        "option_a": "To send data to the server",
+        "option_b": "To retrieve data from the server",
+        "option_c": "To update data on the server",
+        "option_d": "To delete data from the server",
+        "correct_option": "b"
+    },
+    {
+        "question": "In Java, which keyword is used to inherit a class?",
+        "option_a": "implements",
+        "option_b": "extends",
+        "option_c": "inherits",
+        "option_d": "subclass",
+        "correct_option": "b"
+    },
+    {
+        "question": "What does the acronym REST stand for in web development?",
+        "option_a": "Representational State Transfer",
+        "option_b": "Resource Exchange State Technology",
+        "option_c": "Remote Execution System Tool",
+        "option_d": "Request Entry Standard Transmission",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "option_a": "Bubble Sort",
+        "option_b": "Insertion Sort",
+        "option_c": "Merge Sort",
+        "option_d": "Selection Sort",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the purpose of a 'try-catch' block?",
+        "option_a": "To define functions",
+        "option_b": "To handle exceptions",
+        "option_c": "To create loops",
+        "option_d": "To declare variables",
+        "correct_option": "b"
+    },
+    {
+        "question": "In C++, which operator is used for dereferencing a pointer?",
+        "option_a": "&",
+        "option_b": "*",
+        "option_c": "->",
+        "option_d": ".",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the main advantage of using a CDN (Content Delivery Network)?",
+        "option_a": "Increased server processing power",
+        "option_b": "Reduced latency for users",
+        "option_c": "Enhanced database security",
+        "option_d": "Improved code compilation speed",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which programming language is commonly used for data science and machine learning?",
+        "option_a": "Java",
+        "option_b": "C#",
+        "option_c": "Python",
+        "option_d": "PHP",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the purpose of a 'foreign key' in a relational database?",
+        "option_a": "To uniquely identify a record",
+        "option_b": "To establish a relationship between tables",
+        "option_c": "To store large text data",
+        "option_d": "To encrypt sensitive information",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the purpose of the 'npm install' command?",
+        "option_a": "To create a new project",
+        "option_b": "To install project dependencies",
+        "option_c": "To run the application",
+        "option_d": "To delete files",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which of the following is a front-end framework?",
+        "option_a": "Django",
+        "option_b": "Flask",
+        "option_c": "React",
+        "option_d": "Ruby on Rails",
+        "correct_option": "c"
+    },
+    {
+        "question": "What does the acronym DRY stand for in software development?",
+        "option_a": "Don't Repeat Yourself",
+        "option_b": "Develop Rapidly Yield",
+        "option_c": "Data Retrieval Yield",
+        "option_d": "Dynamic Resource Yield",
+        "correct_option": "a"
+    },
+    {
+        "question": "In object-oriented programming, what is encapsulation?",
+        "option_a": "Hiding the implementation details",
+        "option_b": "Inheriting properties from a parent class",
+        "option_c": "Creating multiple instances of a class",
+        "option_d": "Defining abstract methods",
+        "correct_option": "a"
+    },
+    {
+        "question": "What is the purpose of the 'chmod' command in Linux?",
+        "option_a": "To change directory",
+        "option_b": "To change file permissions",
+        "option_c": "To create a new file",
+        "option_d": "To delete a file",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which protocol is used for secure communication over a network?",
+        "option_a": "HTTP",
+        "option_b": "FTP",
+        "option_c": "SMTP",
+        "option_d": "HTTPS",
+        "correct_option": "d"
+    },
+    {
+        "question": "What is the purpose of a 'virtual DOM' in React?",
+        "option_a": "To directly manipulate the browser's DOM",
+        "option_b": "To improve performance by minimizing DOM updates",
+        "option_c": "To manage server-side rendering",
+        "option_d": "To handle database interactions",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of the following Python code?\n\n```python\nprint(type(lambda x: x * 2)) \n```",
+        "option_a": "<class 'int'>",
+        "option_b": "<class 'function'>",
+        "option_c": "<class 'lambda'>",
+        "option_d": "Error",
         "correct_option": "b"
     },
     {
         "question": "What keyword is used to define a function in Python?",
-        "option_a": "func",
-        "option_b": "define",
-        "option_c": "def",
-        "option_d": "function",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
+        "option_a": "function",
+        "option_b": "def",
+        "option_c": "func",
         "option_d": "define",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which of the following is a valid Python data type?",
+        "option_a": "character",
+        "option_b": "float",
+        "option_c": "boolean",
+        "option_d": "all of the above",
+        "correct_option": "d"
+    },
+    {
+        "question": "What symbol is used for single-line comments in Python?",
+        "option_a": "//",
+        "option_b": "/*",
+        "option_c": "#",
+        "option_d": "--",
+        "correct_option": "c"
+    },
+    {
+        "question": "How do you print 'Hello, World!' in Python?",
+        "option_a": "print('Hello, World!')",
+        "option_b": "echo 'Hello, World!'",
+        "option_c": "System.out.println('Hello, World!')",
+        "option_d": "console.log('Hello, World!')",
         "correct_option": "a"
     },
     {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "Which operator is used for exponentiation in Python?",
+        "option_a": "^",
+        "option_b": "**",
+        "option_c": "*",
+        "option_d": "//",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
+        "question": "What is the output of `len('Python')`?",
+        "option_a": "5",
+        "option_b": "6",
+        "option_c": "7",
+        "option_d": "Error",
         "correct_option": "b"
     },
     {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "Which function is used to get input from the user in Python?",
+        "option_a": "get()",
+        "option_b": "read()",
+        "option_c": "input()",
+        "option_d": "scan()",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "What is a list in Python?",
+        "option_a": "An immutable sequence of characters.",
+        "option_b": "A mutable sequence of elements.",
+        "option_c": "A data type to store key-value pairs.",
+        "option_d": "A function to iterate through a sequence.",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "How do you create an empty list in Python?",
+        "option_a": "list()",
+        "option_b": "[]",
+        "option_c": "empty_list()",
+        "option_d": "list = null",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "What is the purpose of the `if` statement in Python?",
+        "option_a": "To define a loop.",
+        "option_b": "To define a function.",
+        "option_c": "To make conditional decisions.",
+        "option_d": "To handle errors.",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "Which loop is used to iterate over a sequence in Python?",
+        "option_a": "while loop",
+        "option_b": "for loop",
+        "option_c": "do-while loop",
+        "option_d": "repeat loop",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
+        "question": "What is a dictionary in Python?",
+        "option_a": "An ordered sequence of elements.",
+        "option_b": "An unordered collection of key-value pairs.",
+        "option_c": "A data type to store single values.",
+        "option_d": "A function to sort a sequence.",
+        "correct_option": "b"
+    },
+    {
+        "question": "How do you access the value associated with the key 'name' in a dictionary `my_dict`?",
+        "option_a": "my_dict['name']",
+        "option_b": "my_dict.name",
+        "option_c": "my_dict.get('name')",
+        "option_d": "both a and c",
+        "correct_option": "d"
+    },
+    {
+        "question": "What is the result of `3 + 5 * 2`?",
+        "option_a": "13",
+        "option_b": "16",
+        "option_c": "10",
+        "option_d": "8",
         "correct_option": "a"
     },
     {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "What is the purpose of the `range()` function?",
+        "option_a": "To generate a sequence of numbers.",
+        "option_b": "To find the maximum value in a list.",
+        "option_c": "To sort a list.",
+        "option_d": "To reverse a string.",
+        "correct_option": "a"
+    },
+    {
+        "question": "What does the `in` keyword do in Python?",
+        "option_a": "Checks if a variable is defined.",
+        "option_b": "Checks if a value exists within a sequence.",
+        "option_c": "Imports a module.",
+        "option_d": "Defines a loop.",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "Which method is used to add an element to the end of a list?",
+        "option_a": "insert()",
+        "option_b": "add()",
+        "option_c": "append()",
+        "option_d": "extend()",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "What is the result of `type([1, 2, 3])`?",
+        "option_a": "<class 'tuple'>",
+        "option_b": "<class 'set'>",
+        "option_c": "<class 'list'>",
+        "option_d": "<class 'array'>",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "How do you open a file named 'data.txt' for reading in Python?",
+        "option_a": "open('data.txt', 'w')",
+        "option_b": "open('data.txt', 'r')",
+        "option_c": "file.open('data.txt')",
+        "option_d": "read_file('data.txt')",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
+        "question": "What is the purpose of the `try...except` block?",
+        "option_a": "To define a loop.",
+        "option_b": "To handle exceptions (errors).",
+        "option_c": "To define a function.",
+        "option_d": "To iterate over a list.",
+        "correct_option": "b"
+    },
+    {
+        "question": "What does the `//` operator do in Python?",
+        "option_a": "Floating-point division.",
+        "option_b": "Integer division (floor division).",
+        "option_c": "Exponentiation.",
+        "option_d": "Modulo.",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which built-in function returns the largest item in an iterable?",
+        "option_a": "largest()",
+        "option_b": "max()",
+        "option_c": "big()",
+        "option_d": "top()",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the result of `'Hello' + 'World'`?",
+        "option_a": "'HelloWorld'",
+        "option_b": "'Hello World'",
+        "option_c": "Error",
+        "option_d": "'Hello, World'",
         "correct_option": "a"
     },
     {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "How do you remove the last element from a list?",
+        "option_a": "remove()",
+        "option_b": "delete()",
+        "option_c": "pop()",
+        "option_d": "discard()",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "What is a tuple in Python?",
+        "option_a": "A mutable sequence.",
+        "option_b": "An immutable sequence.",
+        "option_c": "A collection of key-value pairs.",
+        "option_d": "A data type for single values.",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "What does the `break` statement do in a loop?",
+        "option_a": "Skips the current iteration.",
+        "option_b": "Exits the loop prematurely.",
+        "option_c": "Continues to the next iteration.",
+        "option_d": "Resets the loop counter.",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
+        "question": "Which module provides functions for working with the operating system?",
+        "option_a": "sys",
+        "option_b": "os",
+        "option_c": "io",
+        "option_d": "platform",
         "correct_option": "b"
     },
     {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "How do you convert a string to an integer in Python?",
+        "option_a": "str_to_int()",
+        "option_b": "int()",
+        "option_c": "convert_int()",
+        "option_d": "to_int()",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the purpose of the `pass` statement?",
+        "option_a": "To define a loop.",
+        "option_b": "To define a function.",
+        "option_c": "To act as a placeholder where a statement is syntactically required.",
+        "option_d": "To handle exceptions.",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "What is the result of `2 == '2'`?",
+        "option_a": "True",
+        "option_b": "False",
+        "option_c": "Error",
+        "option_d": "None",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "What is the primary purpose of the `__init__` method in a Python class?",
+        "option_a": "To delete an object.",
+        "option_b": "To initialize object attributes.",
+        "option_c": "To define static methods.",
+        "option_d": "To create a new class.",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "Which of the following is used for string formatting in Python 3.6+?",
+        "option_a": "% formatting",
+        "option_b": ".format()",
+        "option_c": "f-strings",
+        "option_d": "All of the above",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "What does the `with` statement do in Python?",
+        "option_a": "Defines a loop.",
+        "option_b": "Manages resources like files and ensures they are properly closed.",
+        "option_c": "Creates a new thread.",
+        "option_d": "Defines a decorator.",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
+        "question": "Which function is used to convert a list to a tuple in Python?",
+        "option_a": "list_to_tuple()",
+        "option_b": "convert_tuple()",
+        "option_c": "tuple()",
+        "option_d": "to_tuple()",
         "correct_option": "c"
     },
     {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
+        "question": "What is the purpose of the `lambda` keyword in Python?",
+        "option_a": "To define a class.",
+        "option_b": "To define an anonymous function.",
+        "option_c": "To handle exceptions.",
+        "option_d": "To create a loop.",
         "correct_option": "b"
     },
     {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
+        "question": "What does the `enumerate()` function do in Python?",
+        "option_a": "Sorts a list.",
+        "option_b": "Returns an iterator of tuples containing indices and values of a sequence.",
+        "option_c": "Reverses a list.",
+        "option_d": "Calculates the sum of a list.",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the purpose of the `__name__ == '__main__'` check?",
+        "option_a": "To define a function.",
+        "option_b": "To ensure a block of code only runs when the script is executed directly.",
+        "option_c": "To handle exceptions.",
+        "option_d": "To create a loop.",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which method is used to remove a specific element from a set in Python?",
+        "option_a": "remove()",
+        "option_b": "delete()",
+        "option_c": "discard()",
+        "option_d": "pop()",
         "correct_option": "a"
     },
     {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
+        "question": "What is the result of `[1, 2, 3] + [4, 5, 6]`?",
+        "option_a": "[1, 2, 3, 4, 5, 6]",
+        "option_b": "[5, 7, 9]",
+        "option_c": "Error",
+        "option_d": "None",
         "correct_option": "a"
     },
     {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "How do you check if a key exists in a dictionary without raising an error?",
+        "option_a": "dict.get(key)",
+        "option_b": "dict.has_key(key)",
+        "option_c": "key in dict",
+        "option_d": "All of the above",
+        "correct_option": "d"
+    },
+    {
+        "question": "What is the purpose of the `yield` keyword in a Python function?",
+        "option_a": "To define a loop.",
+        "option_b": "To create a generator function.",
+        "option_c": "To handle exceptions.",
+        "option_d": "To define a class.",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
+        "question": "Which module is used for regular expressions in Python?",
+        "option_a": "re",
+        "option_b": "regex",
+        "option_c": "regexp",
+        "option_d": "pattern",
         "correct_option": "a"
     },
     {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "What is the result of `True and False`?",
+        "option_a": "True",
+        "option_b": "False",
+        "option_c": "Error",
+        "option_d": "None",
         "correct_option": "b"
     },
     {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
+        "question": "How do you create a shallow copy of a list in Python?",
+        "option_a": "list.copy()",
+        "option_b": "list[:]",
+        "option_c": "copy.copy(list)",
+        "option_d": "All of the above",
+        "correct_option": "d"
     },
     {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
-        "correct_option": "b"
-    },
-    {
-        "question": "What is the output of 'print(2 ** 3)'?",
-        "option_a": "6",
-        "option_b": "8",
-        "option_c": "9",
-        "option_d": "12",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which SQL statement is used to retrieve data from a database?",
-        "option_a": "FETCH",
-        "option_b": "GET",
-        "option_c": "SELECT",
-        "option_d": "RETRIEVE",
-        "correct_option": "c"
-    },
-    {
-        "question": "What is the time complexity of binary search?",
-        "option_a": "O(n)",
-        "option_b": "O(log n)",
-        "option_c": "O(n log n)",
-        "option_d": "O(1)",
-        "correct_option": "b"
-    },
-    {
-        "question": "Which keyword is used to define a constant in JavaScript?",
-        "option_a": "const",
-        "option_b": "let",
-        "option_c": "var",
-        "option_d": "define",
-        "correct_option": "a"
-    },
-    {
-        "question": "Which company developed the Java programming language?",
-        "option_a": "Microsoft",
-        "option_b": "Sun Microsystems",
-        "option_c": "IBM",
-        "option_d": "Google",
+        "question": "What is the purpose of the `pickle` module in Python?",
+        "option_a": "To handle regular expressions.",
+        "option_b": "To serialize and deserialize Python object structures.",
+        "option_c": "To work with databases.",
+        "option_d": "To manage network connections.",
         "correct_option": "b"
     }
+
 ]
