@@ -5,6 +5,8 @@ from Models.Models import Question, SessionLocal
 from sqlalchemy.orm import Session
 import random
 
+from Resources.Test import TestFront
+
 app = FastAPI()
 
 # CORS setup
@@ -29,29 +31,12 @@ def healthcheck():
     return {"Status is running"}
 
 @app.get("/questions/")
-def get_random_questions(db: Session = Depends(get_db)):
+def get_random_questionss(db: Session = Depends(get_db)):
     # Fetch 10 random MCQs
-    questions = db.query(Question).order_by(Question.id).all()
-    random.shuffle(questions)
-    result = jsonable_encoder(questions[:10])
-
-    for question in result:
-        question.pop("correct_option", None)
-
-    return result
+    return TestFront().get_questions(db)
 
 @app.post("/submit/")
 def submit_answers(data: dict, db: Session = Depends(get_db)):
-    correct_count = 0
-    total = len(data.get('answers'))
+    return TestFront().submit_answers(data, db)
 
-    for q_id, answer in data.get('answers').items():
-        question = db.query(Question).filter(Question.id == q_id).first()
-        if question and question.correct_option == answer:
-            correct_count += 1
 
-    return {
-        "total_questions": total,
-        "correct_answers": correct_count,
-        "score": f"{(correct_count / 10) * 100:.2f}%"
-    }
