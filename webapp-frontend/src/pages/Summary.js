@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Summary = () => {
   const location = useLocation();
-  console.log("Received result in Summary:", location.state?.result);
   const navigate = useNavigate();
   const result = location.state?.result || {};
+
+  useEffect(() => {
+    window.history.replaceState(null, "", "/summary"); // Replaces history entry
+  }, []);
 
   return (
     <div className="p-4">
