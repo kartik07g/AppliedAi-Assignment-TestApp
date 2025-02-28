@@ -5,11 +5,16 @@ import "../styles/css/Summary.css";
 const Summary = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const result = location.state?.result || {};
+  const result = location.state?.result;
 
   useEffect(() => {
-    window.history.replaceState(null, "", "/summary");
-  }, []);
+    // If result is undefined (due to page refresh), redirect to home
+    if (!result) {
+      navigate("/", { replace: true });
+    }
+  }, [result, navigate]);
+
+  if (!result) return null; // Prevents rendering if user is redirected
 
   return (
     <div className="summary-container">
@@ -23,7 +28,7 @@ const Summary = () => {
         {result.attempted_questions?.map((q, index) => (
           <div key={q.question_id} className="question-card">
             <p><strong>Q{index + 1}:</strong> {q.question_text}</p>
-            
+
             {/* Display chosen answer */}
             <p className={q.is_correct ? "correct-answer" : "incorrect-answer"}>
               <strong>Your Answer:</strong> {q.chosen_answer.toUpperCase()}: {q.chosen_answer_text}
