@@ -12,14 +12,15 @@ for i in range(MAX_RETRIES):
     try:
         engine = create_engine(DATABASE_URL)
         SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-        print("✅ Connected to MySQL successfully!")
+        print("Connected to MySQL successfully!")
         break
     except Exception as e:
-        print(f"❌ MySQL not ready, retrying in 5s... ({i+1}/{MAX_RETRIES})")
+        print(f"MySQL not ready, retrying in 5s... ({i+1}/{MAX_RETRIES})")
         time.sleep(5)
 else:
-    print("⛔ Failed to connect to MySQL. Exiting...")
+    print("Failed to connect to MySQL. Exiting...")
     exit(1)
+
 
 Base = declarative_base()
 
