@@ -53,5 +53,5 @@ def submit_answers(data: dict, db: Session = Depends(get_db)):
     return {
         "total_questions": total,
         "correct_answers": correct_count,
-        "score": f"{(correct_count / total) * 100:.2f}%"
+        "score": f"{(correct_count / 10) * 100:.2f}%"
     }
