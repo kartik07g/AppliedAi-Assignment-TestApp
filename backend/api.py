@@ -17,6 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+#############################################
 # Dependency to get the database session
 def get_db():
     db = SessionLocal()
@@ -24,7 +25,7 @@ def get_db():
         yield db
     finally:
         db.close()
-
+##############################################
 
 # Health check endpoint
 @app.get("/")

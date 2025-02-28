@@ -23,10 +23,14 @@ const Summary = () => {
         {result.attempted_questions?.map((q, index) => (
           <div key={q.question_id} className="question-card">
             <p><strong>Q{index + 1}:</strong> {q.question_text}</p>
+            
+            {/* Display chosen answer */}
             <p className={q.is_correct ? "correct-answer" : "incorrect-answer"}>
-              Your Answer: {q.chosen_answer.toUpperCase()}
+              <strong>Your Answer:</strong> {q.chosen_answer.toUpperCase()}: {q.chosen_answer_text}
             </p>
-            <p>Correct Answer: {q.correct_answer.toUpperCase()}</p>
+
+            {/* Display correct answer */}
+            <p><strong>Correct Answer:</strong> {q.correct_answer.toUpperCase()}: {q.correct_answer_text}</p>
           </div>
         ))}
       </div>

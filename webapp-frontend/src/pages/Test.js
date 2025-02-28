@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { fetchQuestions, submitAnswers } from "../apiClient";
+import { fetchQuestions, submitAnswers } from "../util/apiClient";
 import QuestionCard from "../components/QuestionCard";
 import { useNavigate } from "react-router-dom";
 import "../styles/css/Test.css"; // Import the CSS file

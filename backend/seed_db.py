@@ -2,7 +2,7 @@ import json
 import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from Models.Models import Question, SessionLocal  # Correct import
+from Models.Models import Question, SessionLocal
 
 def insert_mcqs():
     db = SessionLocal()

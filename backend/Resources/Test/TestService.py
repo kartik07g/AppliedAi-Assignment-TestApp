@@ -23,6 +23,7 @@ class TestService(TestServiceInterface):
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
+    
     def evaluate_answers(self, data: dict, db: Session):
         try:
             if not isinstance(data, dict) or "answers" not in data or not isinstance(data["answers"], dict):
@@ -40,21 +41,30 @@ class TestService(TestServiceInterface):
 
                 if question:
                     is_correct = question.correct_option == chosen_answer
+                    
+                    # Fetch option texts dynamically
+                    chosen_answer_text = getattr(question, f"option_{chosen_answer}", "Unknown Option")
+                    correct_answer_text = getattr(question, f"option_{question.correct_option}", "Unknown Option")
+
                     if is_correct:
                         correct_count += 1
 
                     attempted_questions.append({
                         "question_id": question.id,
                         "question_text": question.question,
-                        "chosen_answer": chosen_answer,
-                        "correct_answer": question.correct_option,
+                        "chosen_answer": chosen_answer,  # A, B, C, D
+                        "chosen_answer_text": chosen_answer_text,  # Full text of the chosen answer
+                        "correct_answer": question.correct_option,  # A, B, C, D
+                        "correct_answer_text": correct_answer_text,  # Full text of the correct answer
                         "is_correct": is_correct
                     })
                 else:
                     attempted_questions.append({
                         "question_id": q_id,
                         "chosen_answer": chosen_answer,
+                        "chosen_answer_text": "Unknown Option",
                         "correct_answer": None,
+                        "correct_answer_text": "Unknown Option",
                         "is_correct": False,
                         "error": "Question not found in the database"
                     })
