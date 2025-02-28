@@ -30,12 +30,12 @@ def get_db():
 def healthcheck():
     return {"Status is running"}
 
-@app.get("/questions/")
+@app.get("/backend/test/questions/")
 def get_random_questionss(db: Session = Depends(get_db)):
     # Fetch 10 random MCQs
     return TestFront().get_questions(db)
 
-@app.post("/submit/")
+@app.post("/backend/test/submit/")
 def submit_answers(data: dict, db: Session = Depends(get_db)):
     return TestFront().submit_answers(data, db)
 

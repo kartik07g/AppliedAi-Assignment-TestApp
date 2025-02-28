@@ -1,7 +1,7 @@
 // const API_URL = process.env.FASTAPI_BACKEND_URL || "http://localhost:5000";
 
 export const fetchQuestions = () => {
-    return fetch("http://localhost:5000/questions/", {
+    return fetch("http://localhost:5000/backend/test/questions/", {
       method: "GET",
       headers: {
         "Accept": "application/json",
@@ -24,7 +24,7 @@ export const fetchQuestions = () => {
 
 export const submitAnswers = async (answers) => {
   
-  const response = await fetch(`http://localhost:5000/submit/`, {
+  const response = await fetch(`http://localhost:5000/backend/test/submit/`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ answers }),
