@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import "../styles/css/Summary.css"; // Import the CSS file
 
 const Summary = () => {
   const location = useLocation();
@@ -11,11 +12,11 @@ const Summary = () => {
   }, []);
 
   return (
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">Test Summary</h1>
-      <p>Correct Answers: {result.correct_answers} / 10</p>
-      <p>Score: {result.score}</p>
-      <button onClick={() => navigate("/")} className="mt-4 p-2 bg-green-500 text-white">
+    <div className="summary-container">
+      <h1 className="summary-title">Test Summary</h1>
+      <p className="summary-text">Correct Answers: {result.correct_answers} / 10</p>
+      <p className="summary-text">Score: {result.score}</p>
+      <button onClick={() => navigate("/")} className="restart-button">
         Restart Test
       </button>
     </div>

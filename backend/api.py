@@ -10,7 +10,7 @@ app = FastAPI()
 # CORS setup
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change this to specific domains in production
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -34,6 +34,10 @@ def get_random_questions(db: Session = Depends(get_db)):
     questions = db.query(Question).order_by(Question.id).all()
     random.shuffle(questions)
     result = jsonable_encoder(questions[:10])
+
+    for question in result:
+        question.pop("correct_option", None)
+
     return result
 
 @app.post("/submit/")

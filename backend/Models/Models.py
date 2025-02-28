@@ -27,12 +27,11 @@ class Question(Base):
     __tablename__ = "questions"
 
     id = Column(Integer, primary_key=True, index=True)
-    question = Column(String(500), index=True)  # Add length
-    option_a = Column(String(100))  # Add length
+    question = Column(String(500), index=True)  
+    option_a = Column(String(100))  
     option_b = Column(String(100))
     option_c = Column(String(100))
     option_d = Column(String(100))
     correct_option = Column(String(1))  # Stores 'a', 'b', 'c', or 'd'
 
-# Create tables inside MySQL
 Base.metadata.create_all(bind=engine)

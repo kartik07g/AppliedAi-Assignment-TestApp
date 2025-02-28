@@ -9,21 +9,20 @@ export const fetchQuestions = () => {
       }
     })
     .then(response => {
-      console.log("📢 Raw Response:", response);
+      console.log("Raw Response:", response);
       return response.json();  // Convert response to JSON
     })
     .then(data => {
-      console.log("✅ Parsed JSON Data:", data);
+      console.log("Parsed JSON Data:", data);
       return data;
     })
     .catch(error => {
-      console.error("❌ Error fetching questions:", error);
+      console.error("Error fetching questions:", error);
       return [];
     });
   };
 
 export const submitAnswers = async (answers) => {
-  console.log("******answers",answers);
   
   const response = await fetch(`http://localhost:5000/submit/`, {
     method: "POST",
