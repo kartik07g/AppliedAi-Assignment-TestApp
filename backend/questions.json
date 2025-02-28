@@ -1,0 +1,802 @@
+[
+    {
+        "question": "Which programming language is known as the 'mother of all languages'?",
+        "option_a": "C",
+        "option_b": "Assembly",
+        "option_c": "COBOL",
+        "option_d": "FORTRAN",
+        "correct_option": "d"
+    },
+    {
+        "question": "What does HTML stand for?",
+        "option_a": "Hyper Trainer Marking Language",
+        "option_b": "Hyper Text Markup Language",
+        "option_c": "Hyper Text Managing Links",
+        "option_d": "Hyper Transfer Markup Language",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which of the following is a backend language?",
+        "option_a": "HTML",
+        "option_b": "CSS",
+        "option_c": "Python",
+        "option_d": "JavaScript",
+        "correct_option": "c"
+    },
+    {
+        "question": "Which data structure uses LIFO (Last In, First Out)?",
+        "option_a": "Queue",
+        "option_b": "Stack",
+        "option_c": "Array",
+        "option_d": "Linked List",
+        "correct_option": "b"
+    },
+    {
+        "question": "What keyword is used to define a function in Python?",
+        "option_a": "func",
+        "option_b": "define",
+        "option_c": "def",
+        "option_d": "function",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    },
+    {
+        "question": "What is the output of 'print(2 ** 3)'?",
+        "option_a": "6",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "12",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which SQL statement is used to retrieve data from a database?",
+        "option_a": "FETCH",
+        "option_b": "GET",
+        "option_c": "SELECT",
+        "option_d": "RETRIEVE",
+        "correct_option": "c"
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "option_a": "O(n)",
+        "option_b": "O(log n)",
+        "option_c": "O(n log n)",
+        "option_d": "O(1)",
+        "correct_option": "b"
+    },
+    {
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "option_a": "const",
+        "option_b": "let",
+        "option_c": "var",
+        "option_d": "define",
+        "correct_option": "a"
+    },
+    {
+        "question": "Which company developed the Java programming language?",
+        "option_a": "Microsoft",
+        "option_b": "Sun Microsystems",
+        "option_c": "IBM",
+        "option_d": "Google",
+        "correct_option": "b"
+    }
+]

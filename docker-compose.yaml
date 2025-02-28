@@ -1,0 +1,55 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    image: backend:latest
+    ports:
+      - "5000:5000"
+    depends_on:
+      db:
+        condition: service_healthy 
+    environment:
+      DATABASE_URL: mysql+pymysql://root:password@db/mcq_db
+    command: uvicorn api:app --host=0.0.0.0 --port=5000 --reload
+    volumes:
+      - ./backend:/app
+
+  react-app:
+    build:
+      context: ./webapp-frontend
+    container_name: webapp-frontend
+    image: webapp-frontend:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./webapp-frontend:/app  # Mount the local directory to the container
+      - /app/node_modules  # Prevent overwriting node_modules
+    environment:
+    - WATCHPACK_POLLING=true
+    stdin_open: true
+    tty: true
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mcq_db
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 5
+      timeout: 5s
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: password
