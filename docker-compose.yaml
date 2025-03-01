@@ -14,9 +14,9 @@ services:
       - DATABASE_URL=mysql+pymysql://root:password@db/mcq_db
       - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=mcq_db
-    command: uvicorn api:app --host=0.0.0.0 --port=5000 --reload
     volumes:
       - ./backend:/app
+    entrypoint: ["/app/entrypoint.sh"]  # Run entrypoint script
 
   react-app:
     build:
@@ -29,7 +29,7 @@ services:
       - ./webapp-frontend:/app  # Mount the local directory to the container
       - /app/node_modules  # Prevent overwriting node_modules
     environment:
-    - WATCHPACK_POLLING=true
+      - WATCHPACK_POLLING=true
     stdin_open: true
     tty: true
 
