@@ -3,10 +3,12 @@ import { fetchQuestions, submitAnswers } from "../util/apiClient";
 import QuestionCard from "../components/QuestionCard";
 import { useNavigate } from "react-router-dom";
 import "../styles/css/Test.css"; // Import the CSS file
+import "../styles/css/Modal.css"; // Import the modal CSS file
 
 const Test = () => {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState({});
+  const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -33,6 +35,11 @@ const Test = () => {
   };
 
   const handleSubmit = async () => {
+    setShowModal(true);
+  };
+
+  const confirmSubmit = async () => {
+    setShowModal(false);
     const result = await submitAnswers(answers);
     console.log("Navigating with result:", result);
 
@@ -60,6 +67,18 @@ const Test = () => {
       <button onClick={handleSubmit} className="submit-button">
         Submit
       </button>
+
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <p>Are you sure you want to submit?</p>
+            <div className="modal-buttons">
+              <button onClick={confirmSubmit} className="confirm-button">Yes</button>
+              <button onClick={() => setShowModal(false)} className="cancel-button">No</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
